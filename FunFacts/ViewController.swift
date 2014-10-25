@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var funFactLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,7 +23,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFact() {
-        println("You pressed me!")
+        // println("You pressed me!")
+        
     }
 
 }
