@@ -66,6 +66,7 @@
                     </view>
                     <connections>
                         <outlet property="funFactLabel" destination="kVM-5L-ogY" id="3gt-gZ-1Rg"/>
+                        <outlet property="showFactButton" destination="ua5-qM-PZo" id="XHU-2B-7U7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

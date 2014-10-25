@@ -83,6 +83,7 @@
 		55CB3BFC19FC3E4D00743478 /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				55CB3C2319FC5D8500743478 /* ColorWheel.swift */,
 				55CB3C2119FC488200743478 /* FactBook.swift */,
 				55CB3BFF19FC3E4D00743478 /* AppDelegate.swift */,
 				55CB3C0119FC3E4D00743478 /* ViewController.swift */,
@@ -90,7 +91,6 @@
 				55CB3C0619FC3E4D00743478 /* Images.xcassets */,
 				55CB3C0819FC3E4D00743478 /* LaunchScreen.xib */,
 				55CB3BFD19FC3E4D00743478 /* Supporting Files */,
-				55CB3C2319FC5D8500743478 /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -423,6 +423,7 @@
 				55CB3C1B19FC3E4E00743478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CB3C1C19FC3E4E00743478 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +432,7 @@
 				55CB3C1E19FC3E4E00743478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
