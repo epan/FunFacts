@@ -43,12 +43,24 @@
                                     <action selector="showFact" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8MM-6m-4co"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzW-8M-TAU">
+                                <rect key="frame" x="52" y="60" width="116" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="0AU-wo-nmR"/>
+                                    <constraint firstAttribute="height" constant="22" id="4dm-8a-0me"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.35294117647058826" green="0.73333333333333328" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ua5-qM-PZo" secondAttribute="bottom" constant="59" id="04r-Pg-wOR"/>
                             <constraint firstItem="ua5-qM-PZo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="BeY-4d-RWB"/>
                             <constraint firstItem="kVM-5L-ogY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="Cmg-LN-TVo"/>
+                            <constraint firstItem="vzW-8M-TAU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="JHj-OE-kLQ"/>
+                            <constraint firstItem="vzW-8M-TAU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="cai-yr-JsL"/>
                             <constraint firstItem="kVM-5L-ogY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="180" id="ezb-5e-rG9"/>
                         </constraints>
                     </view>
