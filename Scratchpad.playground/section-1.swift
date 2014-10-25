@@ -11,3 +11,10 @@ let someConstant = 20
 
 someVariable = "another string"
 // someConstant = 15 //fail
+
+// Random number generation
+var randomNumber = Int(arc4random_uniform(10))
+
+
+
+
