@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     @IBAction func showFact() {
         // println("You pressed me!")
-        
+        funFactLabel.text = "Another interesting fact"
     }
 
 }
