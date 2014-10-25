@@ -14,6 +14,7 @@
 		55CB3C0A19FC3E4D00743478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CB3C0819FC3E4D00743478 /* LaunchScreen.xib */; };
 		55CB3C1619FC3E4E00743478 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB3C1519FC3E4E00743478 /* FunFactsTests.swift */; };
 		55CB3C2219FC488200743478 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB3C2119FC488200743478 /* FactBook.swift */; };
+		55CB3C2419FC5D8500743478 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB3C2319FC5D8500743478 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		55CB3C1519FC3E4E00743478 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		55CB3C1F19FC412C00743478 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
 		55CB3C2119FC488200743478 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		55CB3C2319FC5D8500743478 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				55CB3C0619FC3E4D00743478 /* Images.xcassets */,
 				55CB3C0819FC3E4D00743478 /* LaunchScreen.xib */,
 				55CB3BFD19FC3E4D00743478 /* Supporting Files */,
+				55CB3C2319FC5D8500743478 /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				55CB3C2219FC488200743478 /* FactBook.swift in Sources */,
 				55CB3C0219FC3E4D00743478 /* ViewController.swift in Sources */,
 				55CB3C0019FC3E4D00743478 /* AppDelegate.swift in Sources */,
+				55CB3C2419FC5D8500743478 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
