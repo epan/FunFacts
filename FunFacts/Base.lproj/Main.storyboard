@@ -17,17 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-5L-ogY">
-                                <rect key="frame" x="52" y="200" width="216" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-5L-ogY">
+                                <rect key="frame" x="52" y="200" width="216" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="216" id="I3R-zw-MN2"/>
+                                    <constraint firstAttribute="height" constant="41" id="Qoo-XD-Wv1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ua5-qM-PZo">
-                                <rect key="frame" x="70" y="260" width="180" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ua5-qM-PZo">
+                                <rect key="frame" x="52" y="448" width="216" height="61"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="216" id="HrQ-vJ-PAL"/>
+                                    <constraint firstAttribute="height" constant="61" id="lkA-eb-4ab"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="tintColor" red="0.35294117647058826" green="0.73333333333333328" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Show another fun fact">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -36,8 +44,10 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.35294117647058826" green="0.73333333333333328" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ua5-qM-PZo" secondAttribute="bottom" constant="59" id="04r-Pg-wOR"/>
+                            <constraint firstItem="ua5-qM-PZo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="BeY-4d-RWB"/>
                             <constraint firstItem="kVM-5L-ogY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="Cmg-LN-TVo"/>
                             <constraint firstItem="kVM-5L-ogY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="180" id="ezb-5e-rG9"/>
                         </constraints>
